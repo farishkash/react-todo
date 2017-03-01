@@ -19,14 +19,14 @@ describe('TodoList', () => {
       text: 'Do something',
       completed: false,
       completedAt: undefined,
-      createAt:500
+      createdAt:500
     },
     {
       id:2,
       text: 'Check mail',
       completed: false,
       completedAt: undefined,
-      createAt:500
+      createdAt:500
     }];
 
     var store = configure({
